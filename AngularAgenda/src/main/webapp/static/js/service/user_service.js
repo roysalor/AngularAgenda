@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('UserService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://angular-agenda01.appspot.com/AngularAgenda/user/';
+    var REST_SERVICE_URI = 'http://angular-agenda.appspot.com/AngularAgenda/user/';
 
     var factory = {
         fetchAllUsers: fetchAllUsers,
