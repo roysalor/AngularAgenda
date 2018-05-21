@@ -9,6 +9,8 @@
   <artifactId>AngularAgenda</artifactId>
 
   <properties>
+  <springframework.version>4.3.1.RELEASE</springframework.version>
+  <jackson.version>2.7.5</jackson.version>
     <appengine.maven.plugin.version>1.3.2</appengine.maven.plugin.version>
     <appengine.api.sdk.version>1.9.63</appengine.api.sdk.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -62,6 +64,29 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    
+    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+    
+    
   </dependencies>
 
   <build>

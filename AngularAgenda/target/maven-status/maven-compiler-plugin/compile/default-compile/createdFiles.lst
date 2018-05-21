@@ -1,0 +1,9 @@
+com\web\agenda\HelloAppEngine.class
+com\web\agenda\configuration\HelloWorldConfiguration.class
+com\web\agenda\model\User.class
+com\web\agenda\service\UserService.class
+com\web\agenda\configuration\CORSFilter.class
+com\web\agenda\configuration\HelloWorldInitializer.class
+com\web\agenda\controller\HelloWorldRestController.class
+com\web\agenda\service\UserServiceImpl.class
+com\web\agenda\controller\IndexController.class
